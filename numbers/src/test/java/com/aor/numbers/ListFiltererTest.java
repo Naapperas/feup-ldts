@@ -8,7 +8,7 @@ import org.mockito.Mockito;
 import java.util.Arrays;
 import java.util.List;
 
-public class LitsFiltererTest {
+public class ListFiltererTest {
 
     private List<Integer> list;
 
