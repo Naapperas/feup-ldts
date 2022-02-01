@@ -1,5 +1,5 @@
 public abstract class AlienClient implements Client {
-    private OrderingStrategy strategy;
+    private final OrderingStrategy strategy;
 
     public AlienClient() {
         this.strategy = createOrderingStrategy();

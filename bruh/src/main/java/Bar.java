@@ -3,9 +3,9 @@ import java.util.List;
 
 public abstract class Bar {
 
-    protected boolean happyHourStasrted = false;
+    protected boolean happyHourStarted = false;
 
-    private List<BarObserver> observers;
+    private final List<BarObserver> observers;
 
     public Bar() {
         this.observers = new ArrayList<>();

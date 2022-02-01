@@ -2,7 +2,7 @@ import java.util.List;
 
 public class StringTransformerGroup implements StringTransformer {
 
-    private List<StringTransformer> transformers;
+    private final List<StringTransformer> transformers;
 
     public StringTransformerGroup(List<StringTransformer> transformerList) {
         this.transformers = transformerList;

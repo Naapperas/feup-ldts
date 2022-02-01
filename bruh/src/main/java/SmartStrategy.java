@@ -3,8 +3,8 @@ import java.util.List;
 
 public class SmartStrategy implements OrderingStrategy {
 
-    private List<StringDrink> drinks = new ArrayList<>();
-    private List<StringRecipe> drinkRecipes = new ArrayList<>();
+    private final List<StringDrink> drinks = new ArrayList<>();
+    private final List<StringRecipe> drinkRecipes = new ArrayList<>();
 
     @Override
     public void wants(StringDrink drink, StringRecipe recipe, StringBar bar) {

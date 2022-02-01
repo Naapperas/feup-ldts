@@ -1,6 +1,6 @@
 public class HumanClient implements Client {
 
-    private OrderingStrategy os;
+    private final OrderingStrategy os;
 
     public HumanClient(OrderingStrategy os) {
         this.os = os;

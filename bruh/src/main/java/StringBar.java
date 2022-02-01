@@ -2,18 +2,18 @@ public class StringBar extends Bar {
 
     @Override
     public boolean isHappyHour() {
-        return this.happyHourStasrted;
+        return this.happyHourStarted;
     }
 
     @Override
     public void startHappyHour() {
-        this.happyHourStasrted = true;
+        this.happyHourStarted = true;
         this.notifyObservers();
     }
 
     @Override
     public void endHappyHour() {
-        this.happyHourStasrted = false;
+        this.happyHourStarted = false;
         this.notifyObservers();
     }
 

@@ -7,11 +7,9 @@ public class ImpatientStrategy implements OrderingStrategy {
 
     @Override
     public void happyHourStarted(StringBar bar) {
-        return;
     }
 
     @Override
     public void happyHourEnded(StringBar bar) {
-        return;
     }
 }

@@ -2,7 +2,7 @@ import java.util.List;
 
 public class StringRecipe {
 
-    private List<StringTransformer> transformers;
+    private final List<StringTransformer> transformers;
 
     public StringRecipe(List<StringTransformer> transformerList) {
         this.transformers = transformerList;

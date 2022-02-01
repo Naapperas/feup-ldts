@@ -1,6 +1,6 @@
 public class StringReplacer implements StringTransformer {
 
-    private char replaced, replacement;
+    private final char replaced, replacement;
 
     public StringReplacer(char replaced, char replacement) {
         this.replaced = replaced;
